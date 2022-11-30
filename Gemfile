@@ -71,5 +71,9 @@ group :test do
   gem "webdrivers"
 end
 
+group :production do
+  gem 'unicorn', '6.1.0'
+end
+
 gem 'haml-rails'
 gem 'html2haml'
